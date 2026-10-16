@@ -1,0 +1,46 @@
+structure	source file	node	crosswalk label	ontology id	triangles
+fundus	VH_F_Uterus.glb	VH_F_fundus_of_uterus	Fundus of uterus	FMA:17561	3062
+body	VH_F_Uterus.glb	VH_F_body_of_uterus	body of uterus	UBERON:0009853	5344
+cornua	VH_F_Uterus.glb	VH_F_cornua	-	-	660
+tubal-ostia	VH_F_Uterus.glb	VH_F_abdominal_ostium_of_uterine_tube	Abdominal ostium of uterine tube	FMA:77049	546
+lower-segment	VH_F_Uterus.glb	VH_F_lower_uterine_segment	Lower uterine segment	FMA:17752	1408
+cervix	VH_F_Uterus.glb	VH_F_cervix	uterine cervix	UBERON:0000002	3508
+internal-os	VH_F_Uterus.glb	VH_F_internal_cervical_os	internal cervical os	UBERON:0013759	216
+external-os	VH_F_Uterus.glb	VH_F_external_cervical_os	external cervical os	UBERON:0013760	270
+vagina	VH_F_Vagina.glb	VH_F_vagina	vagina	UBERON:0000996	8780
+cervicovaginal-junction	VH_F_Vagina.glb	VH_F_cervicovaginal_junction	-	-	3766
+isthmus	VH_F_Fallopian_Tube_L.glb	VH_F_isthmus_of_fallopian_tube_L	Isthmus of left uterine tube	FMA:18494	1870
+isthmus	VH_F_Fallopian_Tube_R.glb	VH_F_isthmus_of_fallopian_tube_R	Isthmus of right uterine tube	FMA:18493	1600
+ampulla	VH_F_Fallopian_Tube_L.glb	VH_F_ampulla_of_uterine_tube_L	Ampulla of left uterine tube	FMA:18492	11424
+ampulla	VH_F_Fallopian_Tube_R.glb	VH_F_ampulla_of_uterine_tube_R	Ampulla of right uterine tube	FMA:18491	10440
+infundibulum	VH_F_Fallopian_Tube_L.glb	VH_F_uterine_tube_infundibulum_L	Infundibulum of left uterine tube	FMA:18490	2116
+infundibulum	VH_F_Fallopian_Tube_R.glb	VH_F_uterine_tube_infundibulum_R	Infundibulum of right uterine tube	FMA:18489	2200
+fimbriae	VH_F_Fallopian_Tube_L.glb	VH_F_fibria_of_uterine_tube_L	Fimbria of left uterine tube	FMA:18498	2871
+fimbriae	VH_F_Fallopian_Tube_R.glb	VH_F_fibria_of_uterine_tube_R	Fimbria of right uterine tube	FMA:18497	3530
+left-ovary	VH_F_Ovary_L.glb	VH_F_left_ovary	Left ovary	FMA:7214	424
+right-ovary	VH_F_Ovary_R.glb	VH_F_right_ovary	Right ovary	FMA:7213	410
+broad-ligament	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_broad_ligament	broad ligament of uterus	UBERON:0012332	29442
+mesosalpinx	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_mesosalpinx_L	Left mesosalpinx	FMA:19810	1914
+mesosalpinx	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_mesosalpinx_R	Right mesosalpinx	FMA:19809	1755
+mesovarium	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_mesovarium_L	Left mesovarium	FMA:19818	644
+mesovarium	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_mesovarium_R	Right mesovarium	FMA:19817	183
+ovarian-ligaments	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_ovarian_ligament_L	Left ovarian ligament	FMA:55424	208
+ovarian-ligaments	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_ovarian_ligament_R	Right ovarian ligament	FMA:55423	198
+suspensory-ligaments	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_suspensory_ligament_of_ovary_L	Suspensory ligament of left ovary	FMA:19824	1270
+suspensory-ligaments	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_suspensory_ligament_of_ovary_R	Suspensory ligament of right ovary	FMA:19823	880
+round-ligaments	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_left_round_ligament_of_uterus	Left round ligament of uterus	FMA:57790	1024
+round-ligaments	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_right_round_ligament_of_uterus	Right round ligament of uterus	FMA:57789	902
+cardinal-ligaments	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_left_cardinal_ligament_of_uterus	Cardinal ligament	FMA:77064	4056
+cardinal-ligaments	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_right_cardinal_ligament_of_uterus	Cardinal ligament	FMA:77064	4056
+uterosacral-ligaments	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_left_uterosacral_ligament	Left uterosacral ligament	FMA:19120	1948
+uterosacral-ligaments	VH_F_Ligaments_Uterus_Ovaries.glb	VH_F_right_uterosacral_ligament	Right uterosacral ligament	FMA:19119	1990
+uterine-arteries	VH_F_Blood_Vasculature_Uterus.glb	VH_F_left_uterine_artery	Left uterine artery	FMA:18831	1382
+uterine-arteries	VH_F_Blood_Vasculature_Uterus.glb	VH_F_right_uterine_artery	Right uterine artery	FMA:18830	1392
+uterine-veins	VH_F_Blood_Vasculature_Uterus.glb	VH_F_left_uterine_vein	Left uterine vein	FMA:18898	2474
+uterine-veins	VH_F_Blood_Vasculature_Uterus.glb	VH_F_right_uterine_vein	Right uterine vein	FMA:18897	2332
+bladder	VH_F_Urinary_Bladder.glb	VH_F_fundus_of_urinary_bladder_dome	fundus of urinary bladder	UBERON:0006082	11916
+bladder	VH_F_Urinary_Bladder.glb	VH_F_fundus_of_urinary_bladder_base	fundus of urinary bladder	UBERON:0006082	25526
+bladder	VH_F_Urinary_Bladder.glb	VH_F_trigone_of_urinary_bladder	trigone of urinary bladder	UBERON:0001257	1684
+bladder	VH_F_Urinary_Bladder.glb	VH_F_urinary_bladder_neck_smooth_muscle	urinary bladder neck smooth muscle	UBERON:0004230	1790
+bladder	VH_F_Urinary_Bladder.glb	VH_F_ureteral_orifice_L	Left ureteral orifice	FMA:15940	194
+bladder	VH_F_Urinary_Bladder.glb	VH_F_ureteral_orifice_R	Right ureteral orifice	FMA:15939	180

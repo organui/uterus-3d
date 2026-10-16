@@ -1,0 +1,80 @@
+{
+  "repository": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library",
+  "commit": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+  "crosswalk": {
+    "file": "docs/model-source/asct-b-3d-models-crosswalk.csv",
+    "repository": "https://github.com/hubmapconsortium/ccf-releases",
+    "commit": "b036a91aaf7234f462b1249d4a5f4fb0e982f412",
+    "path": "v2.0/models/asct-b-3d-models-crosswalk.csv",
+    "doi": "https://doi.org/10.48539/HBM595.JNGT.446",
+    "sha256": "3c39c2d13d5e44562e7ce291fc4d1111279cef6c92eeefc2b68e20013d0b7f80"
+  },
+  "files": [
+    {
+      "file": "VH_F_Uterus.glb",
+      "path": "VH_Female/v1.2/VH_F_Uterus.glb",
+      "sha256": "a484956788ecc2ab05ca7720d9b33d265677e238f144cc28481aad2f7a0c9a95",
+      "bytes": 909772,
+      "title": "3D Reference Organ for Uterus, Female v1.1",
+      "doi": "https://doi.org/10.48539/HBM228.JBNJ.299"
+    },
+    {
+      "file": "VH_F_Fallopian_Tube_L.glb",
+      "path": "VH_Female/v1.2/VH_F_Fallopian_Tube_L.glb",
+      "sha256": "5025453048a83c26393b866bc69859a255b4c38816f34ed3a196bfe7d4f33dd1",
+      "bytes": 336676,
+      "title": "3D Reference Organ for Fallopian Tube, Female, Left v1.1",
+      "doi": "https://doi.org/10.48539/HBM887.HZKB.637"
+    },
+    {
+      "file": "VH_F_Fallopian_Tube_R.glb",
+      "path": "VH_Female/v1.2/VH_F_Fallopian_Tube_R.glb",
+      "sha256": "17aef41a430e068705dc21ac8ccf746a74f14f47ffc1a31908198b0b026849df",
+      "bytes": 327448,
+      "title": "3D Reference Organ for Fallopian Tube, Female, Right v1.1",
+      "doi": "https://doi.org/10.48539/HBM887.HZKB.637"
+    },
+    {
+      "file": "VH_F_Ovary_L.glb",
+      "path": "VH_Female/v1.2/VH_F_Ovary_L.glb",
+      "sha256": "ed91414a667dec5e4e14aeaa2f8641731f06725dbc914bc0da3dd8b5d77f5062",
+      "bytes": 8984,
+      "title": "3D Reference Organ for Ovary, Female, Left v1.1",
+      "doi": "https://doi.org/10.48539/HBM499.JLMB.357"
+    },
+    {
+      "file": "VH_F_Ovary_R.glb",
+      "path": "VH_Female/v1.2/VH_F_Ovary_R.glb",
+      "sha256": "99cc2b91602feacaee08ec1771b993fc0f8b0e32a08bdd7fd6b990a6736aa53b",
+      "bytes": 8744,
+      "title": "3D Reference Organ for Ovary, Female, Right v1.1",
+      "doi": "https://doi.org/10.48539/HBM453.QTZX.449"
+    },
+    {
+      "file": "VH_F_Vagina.glb",
+      "path": "VH_Female/v1.2/VH_F_Vagina.glb",
+      "sha256": "ef334a9315ce0dd7e112bd757d22dce4bf57722c7fd0cac81a05d86209bfce34",
+      "bytes": 231392
+    },
+    {
+      "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+      "path": "VH_Female/v1.2/VH_F_Ligaments_Uterus_Ovaries.glb",
+      "sha256": "ba7bd64c8c40cca6c12d944be4aa7cecd6ecc1fa577be3000337ce114f44f846",
+      "bytes": 1395596
+    },
+    {
+      "file": "VH_F_Blood_Vasculature_Uterus.glb",
+      "path": "VH_Female/v1.2/VH_F_Blood_Vasculature_Uterus.glb",
+      "sha256": "822ce459e907b560dc5c0cd730f7c996858400d0f07272ea2218e70d15b97538",
+      "bytes": 141684
+    },
+    {
+      "file": "VH_F_Urinary_Bladder.glb",
+      "path": "VH_Female/v1.2/VH_F_Urinary_Bladder.glb",
+      "sha256": "9c5732fc9628cd192bb8c8f2b4bbf22b9822a0dff5378a0d366d2f3cb2205b6a",
+      "bytes": 765100,
+      "title": "3D Reference Organ for Urinary Bladder, Female v1.1",
+      "doi": "https://doi.org/10.48539/HBM235.KQNP.897"
+    }
+  ]
+}

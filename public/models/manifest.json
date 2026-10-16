@@ -1,0 +1,728 @@
+{
+  "dataset": "HuBMAP Human Reference Atlas 3D Reference Object Library (Visible Human Female)",
+  "retrieved": "2026-10-16",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "HuBMAP Human Reference Atlas 3D Reference Object Library (Kristen Browne, Heidi Schlehlein et al.), CC BY 4.0. Adapted by OrganUI.",
+  "repository": "https://github.com/hubmapconsortium/ccf-3d-reference-object-library",
+  "commit": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+  "crosswalk": {
+    "file": "docs/model-source/asct-b-3d-models-crosswalk.csv",
+    "repository": "https://github.com/hubmapconsortium/ccf-releases",
+    "commit": "b036a91aaf7234f462b1249d4a5f4fb0e982f412",
+    "path": "v2.0/models/asct-b-3d-models-crosswalk.csv",
+    "doi": "https://doi.org/10.48539/HBM595.JNGT.446",
+    "sha256": "3c39c2d13d5e44562e7ce291fc4d1111279cef6c92eeefc2b68e20013d0b7f80"
+  },
+  "sources": [
+    {
+      "file": "VH_F_Uterus.glb",
+      "path": "VH_Female/v1.2/VH_F_Uterus.glb",
+      "title": "3D Reference Organ for Uterus, Female v1.1",
+      "doi": "https://doi.org/10.48539/HBM228.JBNJ.299",
+      "sha256": "a484956788ecc2ab05ca7720d9b33d265677e238f144cc28481aad2f7a0c9a95",
+      "bytes": 909772
+    },
+    {
+      "file": "VH_F_Fallopian_Tube_L.glb",
+      "path": "VH_Female/v1.2/VH_F_Fallopian_Tube_L.glb",
+      "title": "3D Reference Organ for Fallopian Tube, Female, Left v1.1",
+      "doi": "https://doi.org/10.48539/HBM887.HZKB.637",
+      "sha256": "5025453048a83c26393b866bc69859a255b4c38816f34ed3a196bfe7d4f33dd1",
+      "bytes": 336676
+    },
+    {
+      "file": "VH_F_Fallopian_Tube_R.glb",
+      "path": "VH_Female/v1.2/VH_F_Fallopian_Tube_R.glb",
+      "title": "3D Reference Organ for Fallopian Tube, Female, Right v1.1",
+      "doi": "https://doi.org/10.48539/HBM887.HZKB.637",
+      "sha256": "17aef41a430e068705dc21ac8ccf746a74f14f47ffc1a31908198b0b026849df",
+      "bytes": 327448
+    },
+    {
+      "file": "VH_F_Ovary_L.glb",
+      "path": "VH_Female/v1.2/VH_F_Ovary_L.glb",
+      "title": "3D Reference Organ for Ovary, Female, Left v1.1",
+      "doi": "https://doi.org/10.48539/HBM499.JLMB.357",
+      "sha256": "ed91414a667dec5e4e14aeaa2f8641731f06725dbc914bc0da3dd8b5d77f5062",
+      "bytes": 8984
+    },
+    {
+      "file": "VH_F_Ovary_R.glb",
+      "path": "VH_Female/v1.2/VH_F_Ovary_R.glb",
+      "title": "3D Reference Organ for Ovary, Female, Right v1.1",
+      "doi": "https://doi.org/10.48539/HBM453.QTZX.449",
+      "sha256": "99cc2b91602feacaee08ec1771b993fc0f8b0e32a08bdd7fd6b990a6736aa53b",
+      "bytes": 8744
+    },
+    {
+      "file": "VH_F_Vagina.glb",
+      "path": "VH_Female/v1.2/VH_F_Vagina.glb",
+      "sha256": "ef334a9315ce0dd7e112bd757d22dce4bf57722c7fd0cac81a05d86209bfce34",
+      "bytes": 231392
+    },
+    {
+      "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+      "path": "VH_Female/v1.2/VH_F_Ligaments_Uterus_Ovaries.glb",
+      "sha256": "ba7bd64c8c40cca6c12d944be4aa7cecd6ecc1fa577be3000337ce114f44f846",
+      "bytes": 1395596
+    },
+    {
+      "file": "VH_F_Blood_Vasculature_Uterus.glb",
+      "path": "VH_Female/v1.2/VH_F_Blood_Vasculature_Uterus.glb",
+      "sha256": "822ce459e907b560dc5c0cd730f7c996858400d0f07272ea2218e70d15b97538",
+      "bytes": 141684
+    },
+    {
+      "file": "VH_F_Urinary_Bladder.glb",
+      "path": "VH_Female/v1.2/VH_F_Urinary_Bladder.glb",
+      "title": "3D Reference Organ for Urinary Bladder, Female v1.1",
+      "doi": "https://doi.org/10.48539/HBM235.KQNP.897",
+      "sha256": "9c5732fc9628cd192bb8c8f2b4bbf22b9822a0dff5378a0d366d2f3cb2205b6a",
+      "bytes": 765100
+    }
+  ],
+  "transform": {
+    "sourceBoundsM": {
+      "min": [
+        -0.09142684936523438,
+        -0.05208705738186836,
+        -0.16064681112766266
+      ],
+      "max": [
+        0.05566488951444626,
+        0.10695113986730576,
+        0.00994615163654089
+      ]
+    },
+    "centerM": [
+      -0.017880979925394058,
+      0.027432041242718697,
+      -0.07535032974556088
+    ],
+    "scale": 16,
+    "axes": "[x, y, z]"
+  },
+  "runtime": {
+    "file": "reproductive.glb",
+    "bytes": 4008116,
+    "sha256": "2ad47d7713d50e60ff0a51a6bd110e4ed9750b465b77c573f5e3544b72d49750"
+  },
+  "structures": [
+    {
+      "id": "fundus",
+      "ontologyIds": [
+        "FMA:17561"
+      ],
+      "sourceName": "fundus of uterus",
+      "nodes": [
+        {
+          "file": "VH_F_Uterus.glb",
+          "node": "VH_F_fundus_of_uterus",
+          "label": "Fundus of uterus",
+          "ontologyId": "FMA:17561",
+          "vertices": 1640,
+          "triangles": 3062
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "ontologyIds": [
+        "UBERON:0009853"
+      ],
+      "sourceName": "body of uterus",
+      "nodes": [
+        {
+          "file": "VH_F_Uterus.glb",
+          "node": "VH_F_body_of_uterus",
+          "label": "body of uterus",
+          "ontologyId": "UBERON:0009853",
+          "vertices": 2823,
+          "triangles": 5344
+        }
+      ]
+    },
+    {
+      "id": "cornua",
+      "ontologyIds": [],
+      "sourceName": "cornua",
+      "nodes": [
+        {
+          "file": "VH_F_Uterus.glb",
+          "node": "VH_F_cornua",
+          "label": "-",
+          "ontologyId": "-",
+          "vertices": 369,
+          "triangles": 660
+        }
+      ]
+    },
+    {
+      "id": "tubal-ostia",
+      "ontologyIds": [
+        "FMA:77049"
+      ],
+      "sourceName": "abdominal ostium of uterine tube",
+      "nodes": [
+        {
+          "file": "VH_F_Uterus.glb",
+          "node": "VH_F_abdominal_ostium_of_uterine_tube",
+          "label": "Abdominal ostium of uterine tube",
+          "ontologyId": "FMA:77049",
+          "vertices": 313,
+          "triangles": 546
+        }
+      ]
+    },
+    {
+      "id": "lower-segment",
+      "ontologyIds": [
+        "FMA:17752"
+      ],
+      "sourceName": "lower uterine segment",
+      "nodes": [
+        {
+          "file": "VH_F_Uterus.glb",
+          "node": "VH_F_lower_uterine_segment",
+          "label": "Lower uterine segment",
+          "ontologyId": "FMA:17752",
+          "vertices": 792,
+          "triangles": 1408
+        }
+      ]
+    },
+    {
+      "id": "cervix",
+      "ontologyIds": [
+        "UBERON:0000002"
+      ],
+      "sourceName": "uterine cervix",
+      "nodes": [
+        {
+          "file": "VH_F_Uterus.glb",
+          "node": "VH_F_cervix",
+          "label": "uterine cervix",
+          "ontologyId": "UBERON:0000002",
+          "vertices": 1825,
+          "triangles": 3508
+        }
+      ]
+    },
+    {
+      "id": "internal-os",
+      "ontologyIds": [
+        "UBERON:0013759"
+      ],
+      "sourceName": "internal cervical os",
+      "nodes": [
+        {
+          "file": "VH_F_Uterus.glb",
+          "node": "VH_F_internal_cervical_os",
+          "label": "internal cervical os",
+          "ontologyId": "UBERON:0013759",
+          "vertices": 135,
+          "triangles": 216
+        }
+      ]
+    },
+    {
+      "id": "external-os",
+      "ontologyIds": [
+        "UBERON:0013760"
+      ],
+      "sourceName": "external cervical os",
+      "nodes": [
+        {
+          "file": "VH_F_Uterus.glb",
+          "node": "VH_F_external_cervical_os",
+          "label": "external cervical os",
+          "ontologyId": "UBERON:0013760",
+          "vertices": 162,
+          "triangles": 270
+        }
+      ]
+    },
+    {
+      "id": "vagina",
+      "ontologyIds": [
+        "UBERON:0000996"
+      ],
+      "sourceName": "vagina",
+      "nodes": [
+        {
+          "file": "VH_F_Vagina.glb",
+          "node": "VH_F_vagina",
+          "label": "vagina",
+          "ontologyId": "UBERON:0000996",
+          "vertices": 4461,
+          "triangles": 8780
+        }
+      ]
+    },
+    {
+      "id": "cervicovaginal-junction",
+      "ontologyIds": [],
+      "sourceName": "cervicovaginal junction",
+      "nodes": [
+        {
+          "file": "VH_F_Vagina.glb",
+          "node": "VH_F_cervicovaginal_junction",
+          "label": "-",
+          "ontologyId": "-",
+          "vertices": 1952,
+          "triangles": 3766
+        }
+      ]
+    },
+    {
+      "id": "isthmus",
+      "ontologyIds": [
+        "FMA:18494",
+        "FMA:18493"
+      ],
+      "sourceName": "isthmus of left and right uterine tubes",
+      "nodes": [
+        {
+          "file": "VH_F_Fallopian_Tube_L.glb",
+          "node": "VH_F_isthmus_of_fallopian_tube_L",
+          "label": "Isthmus of left uterine tube",
+          "ontologyId": "FMA:18494",
+          "vertices": 976,
+          "triangles": 1870
+        },
+        {
+          "file": "VH_F_Fallopian_Tube_R.glb",
+          "node": "VH_F_isthmus_of_fallopian_tube_R",
+          "label": "Isthmus of right uterine tube",
+          "ontologyId": "FMA:18493",
+          "vertices": 840,
+          "triangles": 1600
+        }
+      ]
+    },
+    {
+      "id": "ampulla",
+      "ontologyIds": [
+        "FMA:18492",
+        "FMA:18491"
+      ],
+      "sourceName": "ampulla of left and right uterine tubes",
+      "nodes": [
+        {
+          "file": "VH_F_Fallopian_Tube_L.glb",
+          "node": "VH_F_ampulla_of_uterine_tube_L",
+          "label": "Ampulla of left uterine tube",
+          "ontologyId": "FMA:18492",
+          "vertices": 5752,
+          "triangles": 11424
+        },
+        {
+          "file": "VH_F_Fallopian_Tube_R.glb",
+          "node": "VH_F_ampulla_of_uterine_tube_R",
+          "label": "Ampulla of right uterine tube",
+          "ontologyId": "FMA:18491",
+          "vertices": 5260,
+          "triangles": 10440
+        }
+      ]
+    },
+    {
+      "id": "infundibulum",
+      "ontologyIds": [
+        "FMA:18490",
+        "FMA:18489"
+      ],
+      "sourceName": "infundibulum of left and right uterine tubes",
+      "nodes": [
+        {
+          "file": "VH_F_Fallopian_Tube_L.glb",
+          "node": "VH_F_uterine_tube_infundibulum_L",
+          "label": "Infundibulum of left uterine tube",
+          "ontologyId": "FMA:18490",
+          "vertices": 1098,
+          "triangles": 2116
+        },
+        {
+          "file": "VH_F_Fallopian_Tube_R.glb",
+          "node": "VH_F_uterine_tube_infundibulum_R",
+          "label": "Infundibulum of right uterine tube",
+          "ontologyId": "FMA:18489",
+          "vertices": 1140,
+          "triangles": 2200
+        }
+      ]
+    },
+    {
+      "id": "fimbriae",
+      "ontologyIds": [
+        "FMA:18498",
+        "FMA:18497"
+      ],
+      "sourceName": "fimbria of left and right uterine tubes",
+      "nodes": [
+        {
+          "file": "VH_F_Fallopian_Tube_L.glb",
+          "node": "VH_F_fibria_of_uterine_tube_L",
+          "label": "Fimbria of left uterine tube",
+          "ontologyId": "FMA:18498",
+          "vertices": 1456,
+          "triangles": 2871
+        },
+        {
+          "file": "VH_F_Fallopian_Tube_R.glb",
+          "node": "VH_F_fibria_of_uterine_tube_R",
+          "label": "Fimbria of right uterine tube",
+          "ontologyId": "FMA:18497",
+          "vertices": 1785,
+          "triangles": 3530
+        }
+      ]
+    },
+    {
+      "id": "left-ovary",
+      "ontologyIds": [
+        "FMA:7214"
+      ],
+      "sourceName": "left ovary",
+      "nodes": [
+        {
+          "file": "VH_F_Ovary_L.glb",
+          "node": "VH_F_left_ovary",
+          "label": "Left ovary",
+          "ontologyId": "FMA:7214",
+          "vertices": 214,
+          "triangles": 424
+        }
+      ]
+    },
+    {
+      "id": "right-ovary",
+      "ontologyIds": [
+        "FMA:7213"
+      ],
+      "sourceName": "right ovary",
+      "nodes": [
+        {
+          "file": "VH_F_Ovary_R.glb",
+          "node": "VH_F_right_ovary",
+          "label": "Right ovary",
+          "ontologyId": "FMA:7213",
+          "vertices": 207,
+          "triangles": 410
+        }
+      ]
+    },
+    {
+      "id": "broad-ligament",
+      "ontologyIds": [
+        "UBERON:0012332"
+      ],
+      "sourceName": "broad ligament of uterus",
+      "nodes": [
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_broad_ligament",
+          "label": "broad ligament of uterus",
+          "ontologyId": "UBERON:0012332",
+          "vertices": 14901,
+          "triangles": 29442
+        }
+      ]
+    },
+    {
+      "id": "mesosalpinx",
+      "ontologyIds": [
+        "FMA:19810",
+        "FMA:19809"
+      ],
+      "sourceName": "left and right mesosalpinx",
+      "nodes": [
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_mesosalpinx_L",
+          "label": "Left mesosalpinx",
+          "ontologyId": "FMA:19810",
+          "vertices": 1057,
+          "triangles": 1914
+        },
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_mesosalpinx_R",
+          "label": "Right mesosalpinx",
+          "ontologyId": "FMA:19809",
+          "vertices": 969,
+          "triangles": 1755
+        }
+      ]
+    },
+    {
+      "id": "mesovarium",
+      "ontologyIds": [
+        "FMA:19818",
+        "FMA:19817"
+      ],
+      "sourceName": "left and right mesovarium",
+      "nodes": [
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_mesovarium_L",
+          "label": "Left mesovarium",
+          "ontologyId": "FMA:19818",
+          "vertices": 359,
+          "triangles": 644
+        },
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_mesovarium_R",
+          "label": "Right mesovarium",
+          "ontologyId": "FMA:19817",
+          "vertices": 119,
+          "triangles": 183
+        }
+      ]
+    },
+    {
+      "id": "ovarian-ligaments",
+      "ontologyIds": [
+        "FMA:55424",
+        "FMA:55423"
+      ],
+      "sourceName": "left and right ovarian ligaments",
+      "nodes": [
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_ovarian_ligament_L",
+          "label": "Left ovarian ligament",
+          "ontologyId": "FMA:55424",
+          "vertices": 110,
+          "triangles": 208
+        },
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_ovarian_ligament_R",
+          "label": "Right ovarian ligament",
+          "ontologyId": "FMA:55423",
+          "vertices": 104,
+          "triangles": 198
+        }
+      ]
+    },
+    {
+      "id": "suspensory-ligaments",
+      "ontologyIds": [
+        "FMA:19824",
+        "FMA:19823"
+      ],
+      "sourceName": "suspensory ligaments of left and right ovaries",
+      "nodes": [
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_suspensory_ligament_of_ovary_L",
+          "label": "Suspensory ligament of left ovary",
+          "ontologyId": "FMA:19824",
+          "vertices": 637,
+          "triangles": 1270
+        },
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_suspensory_ligament_of_ovary_R",
+          "label": "Suspensory ligament of right ovary",
+          "ontologyId": "FMA:19823",
+          "vertices": 442,
+          "triangles": 880
+        }
+      ]
+    },
+    {
+      "id": "round-ligaments",
+      "ontologyIds": [
+        "FMA:57790",
+        "FMA:57789"
+      ],
+      "sourceName": "left and right round ligaments of uterus",
+      "nodes": [
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_left_round_ligament_of_uterus",
+          "label": "Left round ligament of uterus",
+          "ontologyId": "FMA:57790",
+          "vertices": 514,
+          "triangles": 1024
+        },
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_right_round_ligament_of_uterus",
+          "label": "Right round ligament of uterus",
+          "ontologyId": "FMA:57789",
+          "vertices": 453,
+          "triangles": 902
+        }
+      ]
+    },
+    {
+      "id": "cardinal-ligaments",
+      "ontologyIds": [
+        "FMA:77064"
+      ],
+      "sourceName": "left and right cardinal ligaments of uterus",
+      "nodes": [
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_left_cardinal_ligament_of_uterus",
+          "label": "Cardinal ligament",
+          "ontologyId": "FMA:77064",
+          "vertices": 2030,
+          "triangles": 4056
+        },
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_right_cardinal_ligament_of_uterus",
+          "label": "Cardinal ligament",
+          "ontologyId": "FMA:77064",
+          "vertices": 2030,
+          "triangles": 4056
+        }
+      ]
+    },
+    {
+      "id": "uterosacral-ligaments",
+      "ontologyIds": [
+        "FMA:19120",
+        "FMA:19119"
+      ],
+      "sourceName": "left and right uterosacral ligaments",
+      "nodes": [
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_left_uterosacral_ligament",
+          "label": "Left uterosacral ligament",
+          "ontologyId": "FMA:19120",
+          "vertices": 976,
+          "triangles": 1948
+        },
+        {
+          "file": "VH_F_Ligaments_Uterus_Ovaries.glb",
+          "node": "VH_F_right_uterosacral_ligament",
+          "label": "Right uterosacral ligament",
+          "ontologyId": "FMA:19119",
+          "vertices": 997,
+          "triangles": 1990
+        }
+      ]
+    },
+    {
+      "id": "uterine-arteries",
+      "ontologyIds": [
+        "FMA:18831",
+        "FMA:18830"
+      ],
+      "sourceName": "left and right uterine arteries",
+      "nodes": [
+        {
+          "file": "VH_F_Blood_Vasculature_Uterus.glb",
+          "node": "VH_F_left_uterine_artery",
+          "label": "Left uterine artery",
+          "ontologyId": "FMA:18831",
+          "vertices": 700,
+          "triangles": 1382
+        },
+        {
+          "file": "VH_F_Blood_Vasculature_Uterus.glb",
+          "node": "VH_F_right_uterine_artery",
+          "label": "Right uterine artery",
+          "ontologyId": "FMA:18830",
+          "vertices": 706,
+          "triangles": 1392
+        }
+      ]
+    },
+    {
+      "id": "uterine-veins",
+      "ontologyIds": [
+        "FMA:18898",
+        "FMA:18897"
+      ],
+      "sourceName": "left and right uterine veins",
+      "nodes": [
+        {
+          "file": "VH_F_Blood_Vasculature_Uterus.glb",
+          "node": "VH_F_left_uterine_vein",
+          "label": "Left uterine vein",
+          "ontologyId": "FMA:18898",
+          "vertices": 1247,
+          "triangles": 2474
+        },
+        {
+          "file": "VH_F_Blood_Vasculature_Uterus.glb",
+          "node": "VH_F_right_uterine_vein",
+          "label": "Right uterine vein",
+          "ontologyId": "FMA:18897",
+          "vertices": 1175,
+          "triangles": 2332
+        }
+      ]
+    },
+    {
+      "id": "bladder",
+      "ontologyIds": [
+        "UBERON:0006082",
+        "UBERON:0001257",
+        "UBERON:0004230",
+        "FMA:15940",
+        "FMA:15939"
+      ],
+      "sourceName": "urinary bladder",
+      "nodes": [
+        {
+          "file": "VH_F_Urinary_Bladder.glb",
+          "node": "VH_F_fundus_of_urinary_bladder_dome",
+          "label": "fundus of urinary bladder",
+          "ontologyId": "UBERON:0006082",
+          "vertices": 6138,
+          "triangles": 11916
+        },
+        {
+          "file": "VH_F_Urinary_Bladder.glb",
+          "node": "VH_F_fundus_of_urinary_bladder_base",
+          "label": "fundus of urinary bladder",
+          "ontologyId": "UBERON:0006082",
+          "vertices": 13071,
+          "triangles": 25526
+        },
+        {
+          "file": "VH_F_Urinary_Bladder.glb",
+          "node": "VH_F_trigone_of_urinary_bladder",
+          "label": "trigone of urinary bladder",
+          "ontologyId": "UBERON:0001257",
+          "vertices": 934,
+          "triangles": 1684
+        },
+        {
+          "file": "VH_F_Urinary_Bladder.glb",
+          "node": "VH_F_urinary_bladder_neck_smooth_muscle",
+          "label": "urinary bladder neck smooth muscle",
+          "ontologyId": "UBERON:0004230",
+          "vertices": 935,
+          "triangles": 1790
+        },
+        {
+          "file": "VH_F_Urinary_Bladder.glb",
+          "node": "VH_F_ureteral_orifice_L",
+          "label": "Left ureteral orifice",
+          "ontologyId": "FMA:15940",
+          "vertices": 118,
+          "triangles": 194
+        },
+        {
+          "file": "VH_F_Urinary_Bladder.glb",
+          "node": "VH_F_ureteral_orifice_R",
+          "label": "Right ureteral orifice",
+          "ontologyId": "FMA:15939",
+          "vertices": 106,
+          "triangles": 180
+        }
+      ]
+    }
+  ]
+}
